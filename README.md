@@ -12,5 +12,6 @@ Run script with:
 ./misc/startup.sh
 ```
 
-Walkthrough video:
+Walk through video:
 
+https://github.com/euanchree/quote-app/assets/145170330/a455aca9-1d36-4756-bef0-3921b1980fec
