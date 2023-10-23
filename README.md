@@ -1,11 +1,16 @@
-# cm4025-coursework
-##### Euan Chree 1912490
+## Quote and Budgeting App
+Euan Chree
 
-Coursework submission for the Enterprise Web Systems Module
+Web application for creating and estimating quotes.
 
-Ssh access to github is required for the script to pull the code repository. 
+Created using react and use [bulma css](https://bulma.io/) for the styling. and makes use of mongodb for the database.
+
+The web app has an accompanying start up script which installs all dependencies and starts the web server.
 
 Run script with:
 ```sh
 ./misc/startup.sh
 ```
+
+Walkthrough video:
+
