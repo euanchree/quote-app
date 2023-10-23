@@ -1,0 +1,86 @@
+/*
+  Euan Chree
+  1912490
+  CSS for the Web App
+  Web app makes use of bulma css "https://bulma.io/".
+*/
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.login-menu {
+  display: block;
+}
+
+.quote-list {
+  white-space: nowrap
+}
+
+.quote-list-item > * {
+  margin-right: 10px;
+}
+
+.people-list {
+  white-space: nowrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: scroll;
+}
+
+.people-list > * {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.people-list-item {
+  position: absolute;
+  width: 20%;
+}
+
+.people-list-item > * {
+  margin-right: 10px;
+}
+
+.additional-cost-list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.additional-cost-list > * {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.additional-cost-list-item {
+  position: absolute;
+  width: 20%;
+}
+
+.additional-cost-list-item > * {
+  margin-right: 10px;
+}
+
+.snap-right {
+  position: absolute;
+  right: 10px;
+}
+
+.quote-list * {
+  display: inline;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+}
